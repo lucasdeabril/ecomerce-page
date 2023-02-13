@@ -1,105 +1,105 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    height: 100vh;
+.head{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    height: 50px;
 }
-.slider{
-    margin: 50px auto;
-    width: 800px;
-    height: 400px;
-    overflow: hidden;
+.head ul{
+    margin-left: 7% ;
+    
 }
-.slides{
-    width: 400%;
-    height: 400px;
-    display: flex;
+
+ul li{
+    display: inline;
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
 }
-.slides input{
+#char{
+    float: right;
+    margin-right: 10%; 
+}
+#char #avatar{
+    width: 40px;
+    margin-left: 30px;
+}
+#traco{
+    margin: auto;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+#main{
+    margin: auto;
+    width: 75%;
+
+}
+#main .foto{
+    border-radius: 3%;
+    width: 330px;
+    display: block;
+}
+#main .thumb{
+    border-radius: 7%;
+    width: 65px;
+}
+#main .thumb:not(:first-of-type){
+    margin-right: 18px;
+    margin-top: 10px;
+}
+
+.imghide{
     display: none;
 }
-.slide{
-    width: 25%;
-    position: relative;
+.showitm{
+    display: inline-block;
+    height: fit-content;
+    width: 50%;
 }
-.slide img{
-    width: 600px;
-}
-.manualnav{
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-}
-.manualbtn{
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right:200px;
-    transition: 1s;
-}
-.manualbtn:not(:last-child){
-    margin-right: 40px;
-}
-.manualbtn:hover{
-    background-color: white;
-}
-#radio1:checked ~ .first{
-    margin-left: 0;
-    transition: 1s;
-}
-#radio2:checked ~ .first{
-    margin-left: -25%;
-    transition: 1s;
-}
-#radio3:checked ~ .first{
-    margin-left: -50%;
-    transition: 1s;  
-}
-#radio4:checked ~ .first{
-    margin-left: -75%;  
-    transition: 1s;
-}
-img{
-    height: 100%;
-    transition: 1s;
-}
-.navauto div{
-    border: 2px solid #20a6ff;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-.navauto{
-    position: absolute;
-    width: 800px;
-    margin-top: 360px;
-    display: flex;
-    justify-content: center;
+#discrip{
 
+    width: 50%;
+    float: right;
 }
-.navauto div:not(:last-child){
-    margin-right: 40px;
+#cpn{
+    color: rgb(242, 169, 0);
 }
-.navauto .autobtn4:last-child{
-    margin-right: 200px;
-
+#price{
+    display: inline-block;
 }
-#radio1:checked ~ .navauto .autobtn1{
-    background-color: white;
+#off{
+    color: rgb(255, 145, 0);
+    background-color: rgb(249, 226, 182);
+    display: inline-block;
+    margin-left: 20px;
+    
 }
-#radio2:checked ~ .navauto .autobtn2{
-    background-color: white;
+#ant{
+    color: rgb(165, 163, 163);
+    text-decoration: line-through;
 }
-#radio3:checked ~ .navauto .autobtn3{
-    background-color: white;
+#mountant{
+    justify-content: center;
+    align-content: center;
+    width: 82px;
+    height: 25px;
+    border-radius: 5%;
+    display: inline-block;
+    background-color: rgb(237, 235, 235);
+    padding-left: 20px ;
+    padding-top: 7px;
 }
-#radio4:checked ~ .navauto .autobtn4{
-    background-color: white;
+.montant{
+    display: inline-block;
+    margin-right: 10px ;
+}
+.cart{
+    background-color: orange;
+    display: inline-block;
+    width: 200px;
+    
+}
+#carte{
+    margin: 0px;
 }
