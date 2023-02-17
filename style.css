@@ -282,6 +282,7 @@ ul li{
         padding-top: 20px;
         cursor: pointer;
         margin-top: 20px;
+        transform: translate(10px);
     }
     .montant{
         display: inline-block;
@@ -309,7 +310,7 @@ ul li{
         padding-top: 20px;
         
         cursor: pointer;
-        transform: translate(0px);
+        transform: translate(10px);
         margin-top: 20px;
     }
     #carte{
