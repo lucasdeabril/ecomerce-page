@@ -53,9 +53,9 @@
             <div id="off">50%</div>
             <p id="ant">$250.00</p>
             <div id="mountant"> 
-                <div class="montant" ><img src="icon-minus.svg" alt=" " id="menos"></div> 
-                <div class="montant" >0</div> 
-                <div class="montant" ><img src="icon-plus.svg" alt=" " id="mais"></div></div>
+                <div class="montant" ><img src="icon-minus.svg" alt=" " id="menos" onclick="additm(-1)"></div> 
+                <div class="montant" id="montante" >0</div> 
+                <div class="montant" ><img src="icon-plus.svg" alt=" " id="mais" onclick="additm(1)"></div></div>
             <div class="cart"><img src="icon-cart.svg" alt="" id="carte">Add to cart</div>
         </div>
         
@@ -71,7 +71,7 @@
                 <img src="image-product-4-thumbnail.jpg" alt="" class="thumb" onclick="mudafoto2(4)">
             </div>
             <div id="controles">
-                <div onclick="voltafoto()"id="ant"><img src="icon-previous.svg" alt="" class="ima1" ></div>
+                <div onclick="voltafoto()"id="anti"><img src="icon-previous.svg" alt="" class="ima1" ></div>
                 <div onclick="avancafoto()"id="prox"><img src="icon-next.svg" alt=""  class="ima1"></div>
             </div>
             <div id="close" onclick="sumir()"><img src="icon-close.svg" alt=""></div>
