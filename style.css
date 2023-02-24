@@ -100,7 +100,7 @@ ul li{
     top: 50%;
     transform: translate(-47%,-50%);
 }
-#ant{
+#anti{
     border-radius: 50%;
     background-color: rgb(237, 235, 235);
     width: 40px;
@@ -109,7 +109,7 @@ ul li{
     display: block;
     margin-top: 20px;
 }
-#ant img{
+#anti img{
     transform: translate(11px,10px);
 }
 #prox{
@@ -120,7 +120,7 @@ ul li{
     cursor: pointer;
     padding-left: 10px;
     border-radius: 50%;
-    transform: translate(5px,-3px);
+    transform: translate(5px,-44px);
 }
 #prox img{
     transform: translate(6px,11px);
@@ -147,15 +147,23 @@ ul li{
     width: 50%;
 }
 #discrip{
-
+    
     width: 50%;
     float: right;
 }
+#discrip p{
+    margin-bottom: 20px;
+}
 #cpn{
     color: hsl(26, 100%, 55%);
+    margin-bottom: 20px;    
+}
+h1{
+    margin-bottom: 20px;margin-bottom: 20px;
 }
 #price{
     display: inline-block;
+    margin-bottom: 20px;
 }
 #off{
     color: hsl(26, 100%, 55%);
