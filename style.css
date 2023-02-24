@@ -106,7 +106,8 @@ ul li{
     width: 40px;
     height: 40px;
     cursor: pointer;
-    display: inline-block;
+    display: block;
+    margin-top: 20px;
 }
 #ant img{
     transform: translate(11px,10px);
