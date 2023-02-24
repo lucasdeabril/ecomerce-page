@@ -43,3 +43,17 @@ function avancafoto(){
     i=v
     }    
 }
+var i = 0
+function additm(n){
+    var q = document.getElementById('montante')
+    if(i>=0){
+    
+    i+= n
+    q.innerText= i  
+    }
+    else if (i<0 ){
+        alert('Você ainda não possui este item no carrinho')
+        i=0
+        q.innerText= i
+    }
+}
