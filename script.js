@@ -1,6 +1,6 @@
 var foto = document.getElementById('foto')
 var fotoes=document.getElementById('fotoes')
-var i = 1
+
 function mudafoto (n) {
    foto.src='image-product-'+n+'.jpg'
     
@@ -44,8 +44,9 @@ function avancafoto(){
     }    
 }
 var i = 0
+
 function additm(n){
-    var q = document.getElementById('montante')
+    let q = document.getElementById('montante')
     if(i>=0){
     
     i+= n
@@ -56,4 +57,22 @@ function additm(n){
         i=0
         q.innerText= i
     }
+}
+// construção do código do perfil de usuário
+
+function showprof (){
+    var perf = document.getElementById("perfildp")
+    perf.style.display='block'
+    var vazio = document.getElementById('vazio')
+    var prod = document.getElementById('perfilprd')
+    if (i<=0){
+        vazio.style.display='block'
+        prod.style.display='none'
+    }
+    else if (i>0){
+        vazio.style.display='none'
+        prod.style.display='block'
+    }
+
+
 }
