@@ -36,7 +36,7 @@ ul li{
 #carte1{
     transform: translate(0 , -7px);
 }
-#traco{
+.traco{
     margin: auto;
     width: 90%;
     height: 1px;
@@ -224,18 +224,42 @@ h1{
 }
 
 #perfildp{
-    width: 270px;
-    height: 140px;
+    display: none;
+
+    width: 280px;
+    height: 150px;
     position: absolute;
-    top: 70px;
-    left: 1200px;
-    background-color: rgb(174, 174, 174);
+    top: 50px;
+    left: 1100px;
+    background-color: rgb(244, 243, 243);
     padding-left: 10px;
     padding-top: 10px;
+    
+}
+#vazio{ /*carrinho vazio*/
+    background-color: rgb(244, 244, 244);
+    width: 270px;
+    height: 100px;
+}
+#vazio p{ /*carrinho vazio*/
+    transform: translate(60px,30px);
+}
+ #perfilprd{ /*a parte que vai ficar os produtos */
+    display: none;
+
+    width: 400px;
+    height: 300px;
+}
+#traco{
+    width: 103%;
+    height: 1px;
+    background-color: rgb(187, 187, 187);
+    transform: translate(-10px);
+    margin-bottom: 10px;
 }
 #dptxt{
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #perfildp img{
     width: 30px;
@@ -251,7 +275,7 @@ h1{
 }
 #lixo{
     position: inherit;
-    transform: translate(245px ,7px);
+    transform: translate(245px ,-16px);
     width: 40px;
 
 }
