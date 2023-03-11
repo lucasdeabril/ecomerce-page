@@ -25,6 +25,7 @@ ul li{
     margin-top: 10px;
     cursor: pointer;
 }
+
 #char{
     float: right;
     margin-right: 10%; 
@@ -279,6 +280,7 @@ h1{
     width: 40px;
 
 }
+/* Imagem deletar*/
 #lixo img{
     width: 15px;
 }
